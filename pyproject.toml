@@ -1,0 +1,60 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smartsplit"
+version = "1.0.0"
+description = "Model Context Protocol (MCP) tool suite for acoustic music analysis, instrument detection, and vocal/stem separation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "SmartSplit Team" }
+]
+keywords = [
+    "mcp",
+    "model-context-protocol",
+    "audio-analysis",
+    "instrument-detection",
+    "vocal-removal",
+    "stem-separation",
+    "dsp",
+    "stft",
+    "demucs"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12"
+]
+dependencies = [
+    "mcp>=2.0.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "soundfile>=0.12.0"
+]
+
+[project.optional-dependencies]
+deep = [
+    "torch>=2.0.0",
+    "demucs>=4.0.0"
+]
+dev = [
+    "pytest>=7.0.0"
+]
+
+[project.scripts]
+smartsplit = "smartsplit.server:main"
+smartsplit-mcp = "smartsplit.server:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["smartsplit*"]

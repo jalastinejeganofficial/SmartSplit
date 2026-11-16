@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "smartsplit": {
+      "command": "python",
+      "args": ["-m", "smartsplit.server"],
+      "env": {
+        "PYTHONPATH": "c:\\spotify_music_remover\\smartsplit"
+      }
+    }
+  }
+}
