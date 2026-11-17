@@ -90,8 +90,8 @@ SmartSplit integrates two complementary separation engines:
 ### Install via pip
 ```bash
 # Clone the repository
-git clone https://github.com/jalastinejeganofficial/vocaflow-ai.git
-cd vocaflow-ai/smartsplit
+git clone https://github.com/jalastinejeganofficial/SmartSplit.git
+cd SmartSplit.git
 
 # Install in editable mode
 pip install -e .
@@ -119,7 +119,7 @@ Add this to your `claude_desktop_config.json`:
       "command": "python",
       "args": ["-m", "smartsplit.server"],
       "env": {
-        "PYTHONPATH": "c:\\spotify_music_remover\\smartsplit"
+        "PYTHONPATH": "c:\\SmartSplit"
       }
     }
   }
@@ -132,9 +132,9 @@ Add this to your `claude_desktop_config.json`:
   "mcpServers": {
     "smartsplit": {
       "command": "python",
-      "args": ["-m", "smartsplit.server"],
+      "args": ["-m", "Smartsplit.server"],
       "env": {
-        "PYTHONPATH": "c:/spotify_music_remover/smartsplit"
+        "PYTHONPATH": "c:/SmartSplit.git
       }
     }
   }
@@ -149,7 +149,7 @@ Add to `mcp_servers.json`:
     "command": "python",
     "args": ["-m", "smartsplit.server"],
     "env": {
-      "PYTHONPATH": "c:/spotify_music_remover/smartsplit"
+      "PYTHONPATH": "c:/Smartsplit"
     }
   }
 }
