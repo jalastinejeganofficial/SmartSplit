@@ -2,6 +2,9 @@
 
 > **Model Context Protocol (MCP) Server for Acoustic Music Analysis, Instrument Detection, and Studio-Grade Vocal & Stem Separation.**
 
+🌐 **Live Interactive Website & Multi-Stem Studio:** [https://jalastinejeganofficial.github.io/SmartSplit/](https://jalastinejeganofficial.github.io/SmartSplit/)  
+📦 **GitHub Repository:** [https://github.com/jalastinejeganofficial/SmartSplit.git](https://github.com/jalastinejeganofficial/SmartSplit.git)
+
 SmartSplit MCP brings state-of-the-art music reverse-engineering and source separation capabilities directly to any LLM or AI agent (Claude Desktop, Cursor, Antigravity, Cline, Roo Code, ChatGPT Desktop).
 
 With SmartSplit, an AI agent can listen to any song (MP3, WAV, FLAC, M4A, OGG), reverse-engineer the mix, tell the user exactly what instruments are playing, and isolate or remove vocals and instruments on demand.
